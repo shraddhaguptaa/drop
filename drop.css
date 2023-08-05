@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: aqua;
+}
+
+#cont {
+    background-color: black;
+}
+
+#as {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+}
+
+#as li a {
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: palevioletred;
+
+}
+
+#b {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    display: none;
+
+}
+
+
+#drop:hover b {
+    display: block;
+}
